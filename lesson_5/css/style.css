@@ -1,0 +1,104 @@
+/* @import url("fonts.css"); */
+@import url("reset.css");
+
+/*#region ----- типи шрифтів ----- */
+/*  serif - з зарубками (засічками) */
+/*  sans-serif - рублений(без зарубок) */
+/*  cursive - курсивні */
+/*  fantasy - декоративні */
+/*  monospace - моноширинні */
+/* #endregion */
+
+/* ---- Google Fonts ----- */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,regular,500,600&display=swap");
+
+body {
+  font-family: "Inter", sans-serif; /* times new roman*/
+  font-size: 18px; /* 16px */
+  color: #7d7d7d; /* #000000*/
+  /* color:rgba(79, 62, 148, 0.664); */
+}
+
+/* #region Rulse font-style, font-weight*/
+/* ----font-style ---- */
+/* font-style: normal; */
+/* font-style: italic; */
+/* font-style: oblique; */
+/* ====================================== */
+/* -- font-weight: -- */
+/*  100 - thin  */
+/*  300 - light */
+/*  400 - regular / normal  */
+/*  500 - medium */
+/*  600 - semibold  */
+/*  700 - bold */
+/*  900 - black */
+/*#endregion*/
+
+.title,
+.sub-title {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.27;
+  /* font-style: oblique; */ /* italic; */
+}
+
+.title {
+  font-size: 30px;
+  color: #37393f;
+  font-weight: 600;
+  text-transform: capitalize; /*lowcase/ uppercase/ none*/
+}
+
+.sub-title {
+  font-size: 20px;
+  color: #6b77e5;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-align: center; */
+  /* text-align: right; */
+  /* letter-spacing: 5px;
+  word-spacing: 10px; */
+  /* white-space: nowrap; */
+}
+
+.item5 .title {
+  font-size: 40px;
+  font-weight: 700;
+  /* text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through; */
+
+  /* text-shadow: 5px -5px 10px #6b77e5,
+  -5px 5px 7px red; */
+}
+.text {
+  line-height: 1.46;
+  /* text-indent: 20px; */
+}
+
+.text p {
+  text-align: justify;
+}
+
+/* #region -----Rules text-align,text-decoration,text-shadow,letter-spacing,word-spacing,text-indent     */
+/* text-align: justify;    вирівнювання за шириною*/
+/* text-align: center;     вирівнювання по центру */
+/* left/ right;            вирівнювання по лівому(за замовченням) по правому */
+
+/* ==================================== */
+/*  text-decoration: */
+/* text-decoration: underline;       підкреслення знизу*/
+/* text-decoration: line-through;    закреселння тексту/
+/* text-decoration: none;            відміна попереднього*/
+/* ========================================= */
+/* text-shadow: 5px -5px 5px red;     горизонтальне / вертикальне зміщення / розмиття / колір*/
+
+/* ========================================== */
+/* letter-spacing: 5px; проміжок між літерами*/
+/* word-spacing: 5px;   проміжок між словами*/
+/* text-indent: 30px;   червоний рядок */
+/* white-space:nowrap;  заборона переносу рядка*/
+/* #endregion */
