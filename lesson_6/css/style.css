@@ -136,7 +136,7 @@ body {
   font-size: 28px;
   margin: 13px 0px 13px 0px;
 }
-.title {
+.page2 .title {
   color: #0e333d;
   font-family: DM Serif Text;
   font-size: 59px;
@@ -154,4 +154,7 @@ body {
   flex-direction: row;
   gap: 22px;
   margin-bottom: 140px;
+}
+.image{
+  max-height: 518px;
 }
