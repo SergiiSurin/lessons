@@ -1,0 +1,365 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.page1,
+.page2,
+.page3 {
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  color: #807d7e;
+}
+
+/* .page1,
+.page2,
+.page3,
+.page4,
+.page5 {
+  display: none;
+} */
+
+.variant {
+  font-size: 32px;
+  color: #000;
+}
+
+.block {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px;
+  /* background: lightyellow; */
+}
+
+.rectangle {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+  position: absolute;
+  /* background: lightcoral; */
+}
+
+.content-block {
+  margin-top: 2px;
+  display: inline-block;
+  max-width: 1219px;
+  margin-left: 20px;
+  letter-spacing: 0.4px;
+  /* outline: red solid 1px; */
+  /* background: lightblue; */
+}
+
+.title {
+  color: #3c4242;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.56px;
+  margin-bottom: 35px;
+}
+
+.sub-title {
+  font-family: "Core Sans C", sans-serif;
+  font-weight: 600;
+  margin-bottom: 38px;
+}
+
+.sub-title .demo {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.text {
+  line-height: 1.675;
+  margin-bottom: 25px;
+}
+
+.text p {
+  margin-bottom: 18px;
+}
+
+.text .site-name {
+  font-weight: 700;
+}
+
+.sub-title .link:hover {
+  border-bottom: 1px solid;
+}
+
+/* =================  page_2 ========================= */
+
+.page2 .sub-block {
+  /* width: 1240px; */
+  min-width: 1240px;
+  /* background: lightgreen; */
+  /* outline: red solid 1px; */
+}
+
+.page2 .rectangle {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+  display: inline-block;
+  /* outline: red solid 1px; */
+  position: unset;
+}
+
+.page2 .content-block {
+  margin-top: 3px;
+  width: 1219px;
+  margin-left: 11px;
+  vertical-align: top;
+  display: inline-block;
+  /* background: lightblue; */
+  /* outline: red solid 1px; */
+}
+
+/* =========================  page_3  ====================================== */
+/* .block-title .rectangle {
+  outline: red solid 1px;
+} */
+
+.block-title .title {
+  padding-left: 21px;
+  display: inline-block;
+  /* outline: red solid 1px; */
+  padding-top: 3px;
+}
+
+/* =================== page_4 ============================ */
+
+.page4 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.page4_block {
+  max-width: 1218px;
+  margin: 0 auto;
+  padding: 0;
+  /* background: lightyellow;
+  outline: red solid 1px; */
+}
+/* --------------------------------------------- */
+.header {
+  /* outline: green solid 1px; */
+  margin-bottom: 80px;
+}
+
+.title-block {
+  /* outline: blue solid 1px; */
+  width: 201px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.square {
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+  display: inline-block;
+}
+
+.title-block .h5-title {
+  color: #37393f;
+  font-weight: 500;
+  display: inline-block;
+  /* outline: red solid 1px; */
+}
+
+.h1-title {
+  color: #37393f;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+/* ----------------------------------------------------------------- */
+
+.indent {
+  margin-bottom: 111px;
+}
+.page4_title {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  letter-spacing: normal;
+}
+.page4_text {
+  line-height: 1.46187;
+  margin-bottom: 37px;
+}
+
+.page4_sub-title {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.license {
+  color: #40ddb6;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.link {
+  margin-bottom: 30px;
+}
+
+.links {
+  color: #40ddb6;
+  line-height: 1.46187;
+  margin-bottom: 40px;
+}
+
+.links.font {
+  font-weight: 500;
+}
+/* ================================================================= */
+
+.page5 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.page5_block {
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 0;
+  /* background: lightyellow;
+  outline: red solid 1px; */
+}
+
+.page5__title {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.page5__text {
+  line-height: 1.46187;
+  margin-bottom: 40px;
+}
+
+.page5__text p {
+  margin-bottom: 25px;
+}
+
+.list {
+  margin-bottom: 35px;
+  margin-left: 44px;
+}
+
+.list li {
+  list-style-type: disc;
+  /* margin-left: 35px; */
+  margin-bottom: 35px;
+}
+
+.list.odl li {
+  list-style-type: none;
+  /* margin-left: 35px; */
+  margin-bottom: 35px;
+}
+
+.list.odl {
+  margin-left: 16px;
+}
+
+/* ============================================== */
+
+.page6 {
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  color: #606060;
+  font-weight: 700;
+}
+
+.page6_block {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0px 251px 0px 246px;
+  /* outline:#8a33fd 1px solid; */
+}
+.page6_union-block {
+  min-width: 1103px;
+  /* height: 520px; */
+  /* outline: #8a33fd 1px solid; */
+}
+
+.page6_content-block {
+  width: 503px;
+  /* outline: red 1px solid; */
+  padding: 70px 0px 75px 0px;
+  display: inline-block;
+}
+.page6_state {
+  text-transform: uppercase;
+  color: #d58417;
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+.page6__title {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 64px;
+  margin-bottom: 33px;
+}
+.page6__text {
+  line-height: 1.4;
+}
+.image-left {
+  width: 187px;
+  height: 350px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 86px 0px 0px 69px;
+  /* outline:lightcoral 1px solid; */
+}
+
+.image-box1 {
+  width: 177px;
+  height: 336px;
+  border:#000 1px solid;
+  border-radius: 235px;
+  padding-top: 14px;
+  margin-left: 10px;
+}
+
+.image1 {
+  width: 177px;
+  height: 336px;
+  border-radius: 235px;
+ margin-left: -10px;
+
+}
+
+.image-right {
+  width: 318px;
+  height: 513px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 11px;
+}
+
+.image-box2 {
+  width: 307px;
+  height: 500px;
+  border:#000 1px solid;
+  border-radius: 235px;
+  padding-top: 13px;
+  margin-left: 13px;
+}
+
+.image2{
+  width: 307px;
+  height: 500px;
+  border-radius: 235px;
+  margin-left: -10px;
+} 
