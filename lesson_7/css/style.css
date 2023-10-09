@@ -13,7 +13,8 @@
 .page2,
 .page3,
 .page4,
-.page5 {
+.page5,
+.page6 {
   display: none;
 } */
 
@@ -141,7 +142,8 @@
   /* background: lightyellow;
   outline: red solid 1px; */
 }
-/* --------------------------------------------- */
+
+/* #region header */
 .header {
   /* outline: green solid 1px; */
   margin-bottom: 80px;
@@ -175,7 +177,7 @@
   font-size: 60px;
   font-weight: 700;
 }
-/* ----------------------------------------------------------------- */
+/* #endregion header---------------------------------------- */
 
 .indent {
   margin-bottom: 111px;
@@ -219,7 +221,11 @@
 .links.font {
   font-weight: 500;
 }
-/* ================================================================= */
+
+.links.font:hover {
+  border-bottom: 1px dotted;
+}
+/* ===================  page_5 ================================== */
 
 .page5 {
   font-family: "Inter", sans-serif;
@@ -272,7 +278,7 @@
   margin-left: 16px;
 }
 
-/* ============================================== */
+/* ================  page_6 ======================== */
 
 .page6 {
   font-family: "Cormorant Infant", serif;
@@ -326,7 +332,7 @@
 .image-box1 {
   width: 177px;
   height: 336px;
-  border:#000 1px solid;
+  border: #000 1px solid;
   border-radius: 235px;
   padding-top: 14px;
   margin-left: 10px;
@@ -336,8 +342,7 @@
   width: 177px;
   height: 336px;
   border-radius: 235px;
- margin-left: -10px;
-
+  margin-left: -11px;
 }
 
 .image-right {
@@ -346,20 +351,174 @@
   display: inline-block;
   vertical-align: top;
   margin-left: 11px;
+  /* outline:lightcoral 1px solid; */
 }
 
 .image-box2 {
   width: 307px;
   height: 500px;
-  border:#000 1px solid;
+  border: #000 1px solid;
   border-radius: 235px;
   padding-top: 13px;
   margin-left: 13px;
+  /* outline:lightseagreen 1px solid; */
 }
 
-.image2{
+.image2 {
   width: 307px;
   height: 500px;
   border-radius: 235px;
-  margin-left: -10px;
-} 
+  margin-left: -14px;
+}
+/* ========================================================== */
+
+.lesson {
+  font-family: "Inter", sans-serif;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 120px 100px;
+  color: firebrick;
+  font-size: 20px;
+  font-weight: 600;
+  /* border: #8a33fd 1px solid; */
+}
+.block1 {
+  /* padding: 0; */
+  margin-bottom: 50px;
+  /* border: #8a33fd 3px solid; */
+  background: rgba(135, 206, 250);
+}
+.line {
+  text-align: center;
+  border: #8a33fd 3px solid;
+  background: lightpink;
+  line-height: 2;
+  outline: 4px firebrick dotted;
+  box-shadow: inset 0 0 8px 4px black;
+}
+.image3 {
+  /* margin-top: 50px; */
+  opacity: 0.5;
+  width: 400px;
+  height: 400px;
+  outline: 15px ridge;
+  border: #8a33fd 15px solid;
+  border-radius: 50%;
+  background: lightseagreen;
+  margin-left: 275px;
+  box-shadow: green 20px 20px 20px 10px, blue -20px -20px 20px 10px,
+    red -20px 20px 20px 10px, yellow 20px -20px 20px 10px;
+}
+
+.image3:hover {
+  opacity: 0;
+}
+
+.image4:hover {
+  opacity: 0;
+}
+
+.image5:hover {
+  opacity: 0;
+}
+
+.block1 {
+  line-height: 1.6;
+  padding: 20px;
+  /* border: 20px solid transparent; */
+  /* border: 10px blue solid; */
+  border-top: 10px green dashed;
+  border-left: 15px red dotted;
+  border-bottom: #8a33fd 25px ridge;
+  outline: #40ddb6 15px double;
+  border-radius: 35px 0;
+  /* margin-left: -100%; */
+}
+
+.block1:hover {
+  border-top: 10px dashed transparent;
+  border-left: 15px transparent dotted;
+  border-bottom: transparent 25px ridge;
+  opacity: 0.6;
+}
+
+.block2 {
+  margin-top: 35px;
+  padding: 20px;
+  color: #3c4242;
+  width: 1050px;
+  background: lightcoral;
+  border: 1px solid black;
+  box-shadow: black 10px 10px 20px 5px, red -10px -10px 20px 5px,
+    inset black 0px 0px 10px 1px;
+  /* box-shadow: inset black -5px -5px 10px 5px; */
+}
+
+.block2:hover {
+  background: rgba(240, 128, 128, 0.697);
+}
+
+.block2 p {
+  margin-bottom: 25px;
+}
+
+.block2 a {
+  color: yellow;
+  border-bottom: 2px dotted;
+}
+
+.block2 a:focus {
+  outline: 2px dashed;
+}
+
+.line {
+}
+
+.image4 {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  outline: 15px ridge;
+  border: #8a33fd 15px solid;
+  border-radius: 50% 0;
+  background: lightseagreen;
+  /* margin-left: -150px; */
+}
+
+.image5 {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  outline: 15px ridge;
+  border: #8a33fd 15px solid;
+  border-radius: 0 50%;
+  background: lightseagreen;
+
+  /* margin-left: -150px; */
+}
+
+.second {
+  visibility: hidden;
+}
+
+.block2:hover .second{
+  visibility: visible;
+}
+
+.arrow-right{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: red 100px solid;
+}
+
+.arrow-left{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: #7d7d7d 100px solid;
+}
