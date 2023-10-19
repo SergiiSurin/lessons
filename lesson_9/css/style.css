@@ -12,13 +12,15 @@ body {
 }
 
 /* #region lesson N9 my own experiment */
-.lesson_9 {
+.page0 {
   /* display: none; */
   text-align: center;
   margin-bottom: 50px;
+  overflow: auto;
+  margin-bottom: 30px;
 }
 
-.lesson_9:hover .link {
+.page0:hover .link {
   visibility: visible;
   border-bottom: 1px solid white;
 }
@@ -377,7 +379,7 @@ body {
 #file1,
 #file2,
 #file3 {
-	display: none;
+  display: none;
 }
 .page2 {
   text-align: center;
@@ -421,104 +423,100 @@ body {
 .page2__text {
   width: 650px;
   height: 300px;
- 
+
   padding: 20px;
-  border-radius: 5px; 
+  border-radius: 5px;
   display: none;
   box-shadow: 5px 5px 10px black;
-  position:relative;
+  position: relative;
 }
 
-.page2__text h2{
+.page2__text h2 {
   margin-bottom: 25px;
 }
 
 .page2__file-text .page2__text:nth-child(1) {
   background-color: aqua;
-  
-  
 }
 
 .page2__file-text .page2__text:nth-child(2) {
-  background-color:chartreuse;
-  
+  background-color: chartreuse;
 }
 .page2__file-text .page2__text:nth-child(3) {
-  background-color:deeppink;
-  
+  background-color: deeppink;
 }
 /* ========= file1 ======================= */
 #file1:target ~ .page2 .page2__text:first-child {
-  display:block;
+  display: block;
 }
 
 #file1:target ~ .page2 .button:first-child {
-	background-color: aqua;
+  background-color: aqua;
 }
 
 #file1:target ~ .page2 .block-button {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #file1:target ~ .page2 .button {
   /* box-shadow: none; */
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 /* #file1:target ~ .page2 .remove {
 	display: block;
 } */
 #file1:target ~ .page2 .text p {
-	display: none;
+  display: none;
 }
 
 /* ======   file2  ================= */
 
 #file2:target ~ .page2 .page2__text:nth-child(2) {
-  display:block;
+  display: block;
 }
 
 #file2:target ~ .page2 .button:nth-child(2) {
-	background-color: chartreuse;
+  background-color: chartreuse;
 }
 
 #file2:target ~ .page2 .block-button {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #file2:target ~ .page2 .button {
   /* box-shadow: none; */
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 /* #file1:target ~ .page2 .remove {
 	display: block;
 } */
 #file2:target ~ .page2 .text p {
-	display: none;
+  display: none;
 }
 
 /* ======   file3  ================= */
 
 #file3:target ~ .page2 .page2__text:last-child {
-  display:block;
+  display: block;
 }
 
 #file3:target ~ .page2 .button:last-child {
-	background-color: deeppink;
+  background-color: deeppink;
 }
 
 #file3:target ~ .page2 .block-button {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #file3:target ~ .page2 .button {
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 /* #file1:target ~ .page2 .remove {
 	display: block;
 } */
 #file3:target ~ .page2 .text p {
-	display: none;
+  display: none;
 }
