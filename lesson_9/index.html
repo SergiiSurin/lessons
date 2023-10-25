@@ -11,12 +11,15 @@
 <body>
    <header></header>
    <main>
+      <div id="green"></div>
+      <div id="red"></div>
+
       <div id="page0" class="page-anchor"></div>
       <div class="page0 page">
          <h1 class="lesson">Lesson 9</h1>
          <div class="link-block">
-            <a id="red" href="#green" class="link">Switch "ON"</a>
-            <a id="green" href="#red" class="link">Switch "OFF"</a>
+            <a href="#green" class="link">Switch "ON"</a>
+            <a href="#red" class="link">Switch "OFF"</a>
          </div>
          <img src="img/right_photo.jpg" alt="img" class="image_1">
 
@@ -26,8 +29,6 @@
             </p>
          </div>
          <div class="base">
-            <span class="span1">Lorem ipsum dolor sit amet.</span>
-            <a href="#" class="link_1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, aspernatur!</a>
             <div class="div2">
                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident neque deleniti, ipsam
                quis cupiditate inventore molestias minima dolorum qui corrupti.
@@ -37,15 +38,10 @@
                <span>Lorem ipsum dolor sit amet.</span>
             </div>
 
-            <div class="div4">
+            <div class="div4"></div>
 
-
-            </div>
-
-            <p class="p1">Lorem ipsum dolor sit amet.</p>
-            <span class="span2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <a href="#" class="link_2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            <span class="span3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+            <p class="p1">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+               ipsum dolor sit amet
                consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
                sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
@@ -57,9 +53,12 @@
                consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
                sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
-               elit.</span>
+               elit.
+            </p>
          </div>
-
+         <div class="wrapper-next">
+            <a href="#page1" class="button-next button-page-control">Next slide</a>
+         </div>
       </div>
       <!-- managing burger-menu's visualisation -->
       <div id="control-open"></div>
@@ -67,28 +66,28 @@
 
       <div id="page1" class="page-anchor"></div>
       <div class="page1 page">
-         <div class="page1__menu-button">
-            <a href="#control-open" class="yellow-burger">
-               <p>_</p>
-               <p>_</p>
-               <p>_</p>
-            </a>
-            <a href="#control-close" class="red-burger">
-               <p>_</p>
-               <p>_</p>
-               <p>_</p>
-            </a>
-         </div>
-         <div class="page1__burger-menu">
-            <ul class="page1__menu-list">
-               <li><span>Menu item 1</span></li>
-               <li><span>Menu item 2</span></li>
-               <li><span>Menu item 3</span></li>
-               <li><span>Menu item 4</span></li>
-               <li><span>Menu item 5</span></li>
-            </ul>
-         </div>
          <div class="content">
+            <div class="page1__menu-button">
+               <a href="#control-open" class="yellow-burger">
+                  <p>_</p>
+                  <p>_</p>
+                  <p>_</p>
+               </a>
+               <a href="#control-close" class="red-burger">
+                  <p>_</p>
+                  <p>_</p>
+                  <p>_</p>
+               </a>
+            </div>
+            <div class="page1__burger-menu">
+               <ul class="page1__menu-list">
+                  <li><span>Menu item 1</span></li>
+                  <li><span>Menu item 2</span></li>
+                  <li><span>Menu item 3</span></li>
+                  <li><span>Menu item 4</span></li>
+                  <li><span>Menu item 5</span></li>
+               </ul>
+            </div>
             <div class="text">
                <p>I'm trying to repeat the homework of 'Red Cat' and gaining valuable experience!!!</p>
                <p>I almost broke my brain!!!</p>
@@ -96,7 +95,10 @@
                   win
                   and overcome all difficulties, perhaps not immediately, but definitely.</p>
             </div>
-            <a href="#page2" class="button-next button-page-control">Next slide</a>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#page0" class="button-back button-page-control">Prev slide</a></div>
+            <div class="wrapper-next"><a href=" #page2" class="button-next button-page-control">Next slide</a></div>
          </div>
       </div>
 
@@ -106,44 +108,251 @@
 
       <div id="page2" class="page-anchor"></div>
       <div class="page2 page">
-         <div class="block-button">
-            <a href="#file1" class="button">1</a>
-            <a href="#file2" class="button">2</a>
-            <a href="#file3" class="button">3</a>
-         </div>
-         <div class="page2__file-text">
-            <div class="page2__text">
-               <h2>FILE 1</h2>
-               <p>Yesterday I was still hoping that I understood how the tag "target" works.</p>
+         <div class="content">
+            <div class="block-button">
+               <a href="#file1" class="button">1</a>
+               <a href="#file2" class="button">2</a>
+               <a href="#file3" class="button">3</a>
             </div>
-            <div class="page2__text">
-               <h2>FILE 2</h2>
-               <p>But today I realized that everything is not as simple as I hoped yesterday.</p>
+            <div class="page2__file-text">
+               <div class="page2__text">
+                  <h2>FILE 1</h2>
+                  <p>Yesterday I was still hoping that I understood how the tag "target" works.</p>
+               </div>
+               <div class="page2__text">
+                  <h2>FILE 2</h2>
+                  <p>But today I realized that everything is not as simple as I hoped yesterday.</p>
+               </div>
+               <div class="page2__text">
+                  <h2>FILE 3</h2>
+                  <p>I hope that tomorrow, my inner genius will sort out all the misunderstood points
+                     and the conscious nescience
+                     will turn into unconscious knowledge.</p>
+               </div>
             </div>
-            <div class="page2__text">
-               <h2>FILE 3</h2>
-               <p>I hope that tomorrow, my inner genius will sort out all the misunderstood points 
-                  and the conscious nescience
-                 will turn into unconscious knowledge.</p>
+            <p class="wrapper"><a class="return" href="#page2">Refresh page</a></p>
+            <div class="text">
+               <p>I'm not sure I fully understand how it actually works, and I
+                  can do it again without looking at the original. </p>
+               <p>
+                  The first step of this quest is completed! It was an interesting educational
+                  journey.
+               </p>
             </div>
-         </div>
-         <div class="text">
-            <p>I'm not sure I fully understand how it actually works, and I
-               can do it again without looking at the original. </p>
-            <p>
-               The first step of this quest is completed! It was an interesting educational
-               journey.
-            </p>
-
          </div>
          <div class="page-control">
-            <a href="#page1" class="button-back button-page-control">Prev slide</a>
+            <div class="wrapper-back"><a href="#page1" class="button-back button-page-control">Prev slide</a></div>
+            <div class="wrapper-next"><a href=" #page3" class="button-next button-page-control">Next slide</a></div>
          </div>
       </div>
+
+      <div id="btn1"></div>
+      <div id="btn-file1"></div>
+      <div id="btn2"></div>
+      <div id="btn-file2"></div>
+      <div id="btn3"></div>
+      <div id="btn-file3"></div>
+      <div id="btn4"></div>
+      <div id="btn-file4"></div>
+
+
       <div id="page3" class="page-anchor"></div>
       <div class="page3 page">
 
+         <div class="content">
+            <div class="page3__button-block">
+               <a href="#btn1" class="btn btn1">Button 1</a>
+               <a href="#btn-file1" class="btn btn-file btn-file1">Button 1</a>
+               <div class="btn-text btn-file btn-file1">I am the First!!!</div>
+               <a href="#btn2" class="btn btn2">Button 2</a>
+               <a href="#btn-file2" class="btn btn-file btn-file2">Button 2</a>
+               <div class="btn-text btn-file btn-file2">I am the Second!!!</div>
+               <a href="#btn3" class="btn btn3">Button 3</a>
+               <a href="#btn-file3" class="btn btn-file btn-file3">Button 3</a>
+               <div class="btn-text btn-file btn-file3">I am the Third!!!</div>
+               <a href="#btn4" class="btn btn4">Button 4</a>
+               <a href="#btn-file4" class="btn btn-file btn-file4">Button 4</a>
+               <div class="btn-text btn-file btn-file4">I am the Forth!!!</div>
+            </div>
+            <p>This is a very useful task for me, since I do not have a creative thinking, and thanks to the "Red Cat"
+               model I trained to apply the knowledge received from Jeka.
+            </p>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#page2" class="button-page-control button-back ">Prev slide</a></div>
+            <div class="wrapper-next"><a href=" #page4" class="button-page-control button-next ">Next slide</a></div>
+         </div>
       </div>
+
+      <div id="page4" class="page-anchor"></div>
+      <div class="page4 page">
+         <div class="game-area">
+            <h1 class="game">GAME</h1>
+            <div class="line1 line"></div>
+            <div class="line2 line">START HERE</div>
+
+            <div class="line_3"></div>
+            <div class="line3 line"></div>
+
+            <div class="line_4"></div>
+            <div class="line4 line">FOLLOW ME</div>
+            <br>
+            <div class="line5 line"></div>
+            <div class="line6 line"> FINISH !!!</div>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#page3" class="button-page-control button-back ">Prev slide</a></div>
+            <div class="wrapper-next"><a href="#blank1" class="button-page-control button-next ">Next slide</a></div>
+         </div>
+      </div>
+
+      <div id="blank1" class="blank1">
+         <div class="task1">
+            <div class="block1 block">
+               <h4 class="title">Why Us For International Business Management Consulting!</h4>
+               <p class="content-text">Completely synergized resourced taxings relationships premiers markets ultivate
+                  one-to-one
+                  customer service with robust ideas dynamically innovated resources leveling customer service for state
+                  of
+                  the art customer service innovate product for reliable supply engage web services cutting-edge
+                  deliverables.</p>
+               <p class="tesis">Proactively envisioned multimedia based expertise media growth superior collaboration.
+               </p>
+               <p class="content-text">One-to-one customer service with robust ideas dynamically innovated resources for
+                  reliable
+                  supply engage web services cutting-edge deliverables.</p>
+            </div>
+            <div class="block2 sub-block">
+               <img class="image" src="img/photo_phone.jpg" alt="phone_photo">
+               <div class="sub-block__content">
+                  <h5 class="sub-title">Our benefits</h5>
+                  <p class="tesis">Incubate standards compliant
+                     channels benefits.</p>
+                  <ul class="list">
+                     <li>Credibly reintermediate backend</li>
+                     <li>Holistically foster superior</li>
+                     <li>Distinctively exploit optimal</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="block3 block">
+               <h4 class="title">Frequently Asked Questions</h4>
+               <p class="content-text">Leveling customer service for state of the art customer service innovate product
+                  for
+                  reliable supply engage web services cutting-edge deliverables.</p>
+            </div>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#page4" class="button-page-control button-back ">Prev slide</a></div>
+            <div class="wrapper-next"><a href="#blank2" class="button-page-control button-next ">Next slide</a></div>
+         </div>
+      </div>
+
+      <div id="blank2" class="blank2">
+         <div class="task2">
+            <div class="article">
+               <p class="article__rubric">Welcome Whitecollar</p>
+               <h2 class="article__title title">We Care About Your
+                  Business Plan.</h2>
+               <div class="article__text">
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                     approaches to corporate strategy foster collaborative thinking to further the overal.</p>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                     approaches to corporate strategy </p>
+               </div>
+               <ul class="article__list">
+                  <li>
+                     <div class="item">
+                        <h6 class="item-title title">Our Vision</h6>
+                        <p class="item-text">Capitalize on low hanging fruit to identify a ballpark value added activity
+                           to beta clickthroughs.</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="item">
+                        <h6 class="item-title title">Our Mision</h6>
+                        <p class="item-text">Podcasting operational change management inside of workflows to establish a
+                           framework.</p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <a href="#fff" class="article__button">More About Us</a>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#blank1" class="button-page-control button-back ">Prev slide</a></div>
+            <div class="wrapper-next"><a href="#blank3" class="button-page-control button-next ">Next slide</a></div>
+         </div>
+      </div>
+
+      <div id="blank3" class="blank3">
+         <div class="task3">
+            <div class="preview__header">
+               <p class="preview__rubrica">Work Process</p>
+               <h2 class="preview__title">How We Work</h2>
+            </div>
+            <div class="preview__body">
+               <div class="preview__item">
+                  <img class="preview__image" src="img/icon1.svg" alt="icon1">
+                  <h5 class="preview__item-title">Make Appointment</h5>
+                  <p class="preview__item-text">Leverage agile frameworks provide
+                     synopsishigh level overviews <br>
+                     value proposition. </p>
+                  <a href="#lll" class="preview__item-link">Testimonials</a>
+               </div>
+               <div class="preview__item">
+                  <img class="preview__image" src="img/icon2.svg" alt="icon2">
+                  <h5 class="preview__item-title">Consultation</h5>
+                  <p class="preview__item-text">Leverage agile frameworks provide
+                     synopsishigh level overviews <br>
+                     value proposition. </p>
+                  <a href="#lll" class="preview__item-link">Testimonials</a>
+               </div>
+               <div class="preview__item">
+                  <img class="preview__image" src="img/icon3.svg" alt="icon3">
+                  <h5 class="preview__item-title">Enjoy the Service</h5>
+                  <p class="preview__item-text">Leverage agile frameworks provide
+                     synopsishigh level overviews <br>
+                     value proposition. </p>
+                  <a href="#lll" class="preview__item-link">Testimonials</a>
+               </div>
+            </div>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#blank2" class="button-page-control button-back ">Prev slide</a></div>
+            <div class="wrapper-next"><a href="#blank4" class="button-page-control button-next ">Next slide</a></div>
+         </div>
+      </div>
+
+      <div id="blank4" class="blank4">
+         <div class="task4">
+            <div class="reklama-block">
+               <div class="reklama-block__column">
+                  <h2 class="reklama-block__title">We Develop Create Custom Jewels.</h2>
+               </div>
+               <div class="reklama-block__column">
+                  <div class="reklama-block__item1">
+                     <img class="reklama-block__pic1" src="img/rectangle1.png" alt="pic1">
+                     <h6 class="reklama-block__denom">Embossed hoop earrings</h6>
+                     <p class="reklama-block__price">$144.00</p>
+                  </div>
+               </div>
+               <div class="reklama-block__column">
+                  <h4 class="reklama-block__sub-title">#02 <br>
+                     new jewellery collection</h4>
+                 <div class="reklama-block__item2">
+                     <img class="reklama-block__pic2" src="img/picture2.jpg" alt="pic2">
+                     <h6 class="reklama-block__denom">Embossed hoop earrings</h6>
+                     <p class="reklama-block__price">$144.00</p>
+                 </div>
+               </div>
+            </div>
+         </div>
+         <div class="page-control">
+            <div class="wrapper-back"><a href="#blank3" class="button-page-control button-back ">Prev slide</a></div>
+         </div>
+      </div>
+
    </main>
    <footer></footer>
 </body>
