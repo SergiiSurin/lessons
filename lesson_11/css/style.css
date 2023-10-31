@@ -1,0 +1,98 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+  color: #807d7e;
+  font-family: "Causten", sans-serif;
+  font-size: 16px;
+}
+
+.header-container {
+  max-width: 1440px; 
+  margin: 0 auto;  
+}
+
+.header{
+  padding: 32px 100px; 
+  outline: 1px solid black;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-right: 83px;
+  vertical-align: top;
+}
+
+.header__menu { 
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px 0px;
+  margin-right: 71px;
+}
+
+/* #region horizontal-menu     ---------- */
+.horizontal-menu {   
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.horizontal-menu__item {
+  margin-right: 37px;
+}
+
+.horizontal-menu__item:last-child {
+  margin-right: 0px;
+}
+
+.horizontal-menu__item--bold {
+  color: #3c4242;
+  font-weight: 700;
+}
+/* #endregion horizontal-menu     ---------- */
+
+.header__search-form {
+  margin-right: 72px; 
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* #region   search form */
+.search-form { 
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #f6f6f6;
+}
+
+.search-form__icon {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+.search-form__input {
+  font-family: "Causten", sans-serif;
+  background: #f6f6f6;
+  font-size: 16px;
+  width: 195px;
+  height: 21px;
+  padding-top: 1px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border-bottom: 1px dotted #807d7e;
+}
+/* #endregion search form */
+
+.header__user-area {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.user-area__item:not(:last-child) {
+  margin-right: 8px; 
+  
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 11</title>
+</head>
+
+<body>
+   <header>
+      <div class="header-container header">
+         <div class="header__logo">
+            <a href="#home" class="home-page-link"><img src="img/logo.svg" alt="Logo"></a>
+         </div>
+         <nav class="header__menu horizontal-menu">
+            <a class="horizontal-menu__item" href="#shop">Shop</a>
+            <a class="horizontal-menu__item" href="#men">Men</a>
+            <a class="horizontal-menu__item horizontal-menu__item--bold" href="#women">Women</a>
+            <a class="horizontal-menu__item" href="#combos">Combos</a>
+            <a class="horizontal-menu__item" href="#joggers">Joggers</a>
+         </nav>
+         <div class="header__search-form search-form">
+            <form action="#">
+               <a href="#search" class="search-form__icon">
+                  <img src="img/search.svg" alt="icon">
+               </a>
+               <input class="search-form__input" type="text" placeholder="Search" name="search">
+            </form>
+         </div>
+         <div class="header__user-area user-area">
+            <a href="#favor" class="user-area__item">
+               <img src="img/icons/favourites.svg" alt="Favour">
+            </a>
+            <a href="#account" class="user-area__item">
+               <img src="img/icons/account.svg" alt="Account">
+            </a>
+            <a href="#cart" class="user-area__item">
+               <img src="img/icons/shopping_cart.svg" alt="Cart">
+            </a>
+         </div>
+      </div>
+   </header>
+   <main>
+      <!-- ============ goods-selection-section ==============-->
+      <div class="goods-selection-section">
+         <!--#region left column -->
+         <div class="preview-column previewer">
+            <div class="previewer__column-thumbnails thumbnails">
+               <div class="thumbnails__list">
+                  <div class="thumbnails__item">
+                     <a href="#sm_img1"><img src="img/section1/small_img1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="thumbnails__item thumbnails__item--current">
+                     <a href="#sm_img2"><img src="img/section1/small_img2.jpg" alt="img2"></a>
+                  </div>
+                  <div class="thumbnails__item">
+                     <a href="#sm_img3"><img src="img/section1/small_img3.jpg" alt="img3"></a>
+                  </div>
+               </div>
+               <!-- Next and previous buttons -->
+               <a class="thumbnails__prev-btn"><img src="img/section1/icons/arr_up.svg" alt="Prev"></a>
+               <a class="thumbnails__next-btn"><img src="img/section1/icons/arr_down.svg" alt="Next"></a>
+            </div>
+            <div class="previewer__column-full-wide slides">
+               <div class="slides__photo"> <img src="img/section1/photo.jpg" alt="Photo"></div>
+            </div>
+         </div>
+         <!--#endregion left column -->
+
+         <!--#region right column -->
+         <div class="interact-column">
+            <div class="interact-column__breadcrumbs breadcrumbs">
+               <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item"><a href="#">Shop</a></li>
+                  <li class="breadcrumbs__item"><a href="#">Women</a></li>
+                  <li class="breadcrumbs__item breadcrumbs__item--not-link">Top</li>
+               </ul>
+            </div>
+            <h2 class="interact-column__title title">Raven Hoodie With Black colored Design</h2>
+            <div class="interact-column__rating rating-line">
+               <ul class="rating-line__stars">
+                  <li><a href="#"><img src="img/section1/icons/star.svg" alt="Star"></a></li>
+                  <li><a href="#"><img src="img/section1/icons/star.svg" alt="Star"></a></li>
+                  <li><a href="#"><img src="img/section1/icons/star.svg" alt="Star"></a></li>
+                  <li><a href="#"><img src="img/section1/icons/star.svg" alt="Star"></a></li>
+                  <li><a href="#"><img src="img/section1/icons/star.svg" alt="Star"></a></li>
+               </ul>
+               <p class="rating-line__rate">3.5</p>
+               <a class="rating-line__comments" href="#">
+                  <!-- <img src="img/section1/icons/message.svg" alt="message"> -->
+                  <p class="rating-line__num-of-comments">120</p>
+                  comment
+               </a>
+            </div>
+            <div class="interact-column__select-size size-block">
+               <div class="size-block__title">Select Size</div>
+               <div class="size-block__link-guide"><a href="#"><span>Size Guide</span></a></div>
+               <div class="size-block__size-link link-size">
+                  <ul class="link-size__list">
+                     <li class="link-size__item"><a href="#xs">XS</a></li>
+                     <li class="link-size__item"><a href="#s">S</a></li>
+                     <li class="link-size__item"><a href="#m">M</a></li>
+                     <li class="link-size__item link-size__item--black"><a href="#l">L</a></li>
+                     <li class="link-size__item"><a href="#xl">XL</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="interact-column__select-color color-block">
+               <div class="color-block__title">Colours Available</div>
+               <div class="color-block__color-link link-color">
+                  <ul class="link-color__list">
+                     <li class="link-color__item link-color__item--pick"><a href="#"></a></li>
+                     <li class="link-color__item"><a href="#"></a></li>
+                     <li class="link-color__item"><a href="#"></a></li>
+                     <li class="link-color__item"><a href="#"></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="interact-column__button-buy buy-button">
+               <a class="buy-button__link" href="#buy"><span>Add to cart</span></a>
+            </div>
+            <div class="interact-column__price">$63.00</div>
+            <!-- <div class="interact-column__line"></div> -->
+            <div class="interact-column__advantages advantages">
+               <div class="advantages__row">
+                  <div class="advantages__column">
+                     <div class="advantages__item">Secure payment</div>
+                  </div>
+                  <div class="advantages__column">
+                     <div class="advantages__item">Size & Fit</div>
+                  </div>
+               </div>
+               <div class="advantages__row">
+                  <div class="advantages__column">
+                     <div class="advantages__item">Free shipping</div>
+                  </div>
+                  <div class="advantages__column">
+                     <div class="advantages__item">Free Shipping & Returns</div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <!--#endregion right column -->
+      </div>
+      <!-- ============ product-description-section ==============-->
+      <div class="product-description-section product-description">
+         <h3 class="product-description__sub-title">Product Description</h3>
+         <div class="product-description__content-block block-content">
+            <nav class="block-content__menu horizontal-menu">
+               <a class="horizontal-menu__item horizontal-menu__item--underline" href="#descript">Description</a>
+               <a class="horizontal-menu__item" href="#comment">User comments</a>
+               <a class="horizontal-menu__item " href="#q_a">Question & Answer</a>
+            </nav>
+            <div class="block-content__text">
+               <p>100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely
+                  stitched with no pilling & no fading. Provide all-time comfort. Anytime, anywhere. Infinite range of
+                  matte-finish HD prints.</p>
+            </div>
+            <div class="block-content__features features">
+               <div class="features__row">
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Fabric</p>
+                        <p class="item-feature__value">Bio-washed Cotton</p>
+                     </div>
+                  </div>
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Pattern</p>
+                        <p class="item-feature__value">Printed</p>
+                     </div>
+                  </div>
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Fit</p>
+                        <p class="item-feature__value">Regular-fit</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="features__row">
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Neck</p>
+                        <p class="item-feature__value">Round Neck</p>
+                     </div>
+                  </div>
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Sleeve</p>
+                        <p class="item-feature__value">Half-sleeves</p>
+                     </div>
+                  </div>
+                  <div class="features__column">
+                     <div class="features__item item-feature">
+                        <p class="item-feature__name">Style</p>
+                        <p class="item-feature__value">Casual Wear</p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <div class="product-description__prevideo pre-video">
+            <div class="pre-video__photo">
+               <div class="pre-video__time">1:00 M</div>
+               <!--make background-> <img src="img/section2/video.jpg" alt="video"> -->
+               <a href="#video"><img src="img/section2/ic_play.svg" alt="video"></a>
+               <div class="pre-video__label">Raven Hoodie with black colored design</div>
+            </div>
+            <div class="pre-video__video">
+               <video src=""></video>
+            </div>
+
+         </div>
+      </div>
+      <!-- ============ similar-products-section ==============-->
+      <div class="similar-products-section">
+         <h3 class="sub-title">Similar Products</h3>
+         <div class="similar-products-section__row">
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+         </div>
+         <div class="similar-products-section__row">
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+            <div class="similar-products-section__column">
+               <div class="similar-products-section__item item-card">
+                  <div class="item-card__image"><a href="#product_link1"><img src="img/section3/1.jpg" alt="img1"></a>
+                  </div>
+                  <div class="item-card__link">
+                     <a href="#">
+                        <img src="img/section3/favor.svg" alt="Favor">
+                     </a>
+                  </div>
+                  <div class="item-card__block-name block-name">
+                     <div class="block-name__item-name"><a href="#product_link1">White T-Shirt</a></div>
+                     <div class="block-name__item-brand">Priya’s Brand</div>
+                  </div>
+                  <div class="item-card__price">$13.00</div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </main>
+   <footer>
+      <div class="footer-container footer">
+         <div class="footer__menu-section links-menu">
+            <div class="links-menu__row">
+               <div class="links-menu__column">
+                  <h3 class="links-menu__title">Need Help</h3>
+                  <ul class="links-menu__link-list links">
+                     <li class="links__item"><a href="">Contact Us</a></li>
+                     <li class="links__item"><a href="">Track Order</a></li>
+                     <li class="links__item"><a href="">Returns & Refunds</a></li>
+                     <li class="links__item"><a href="">FAQ's</a></li>
+                     <li class="links__item"><a href="">Career</a></li>
+                  </ul>
+               </div>
+               <div class="links-menu__column">
+                  <h3 class="links-menu__title">Company</h3>
+                  <ul class="links-menu__link-list links">
+                     <li class="links__item"><a href="">About Us</a></li>
+                     <li class="links__item"><a href="">euphoria Blog</a></li>
+                     <li class="links__item"><a href="">euphoriastan</a></li>
+                     <li class="links__item"><a href="">Collaboration</a></li>
+                     <li class="links__item"><a href="">Media</a></li>
+                  </ul>
+               </div>
+               <div class="links-menu__column">
+                  <h3 class="links-menu__title">More Info</h3>
+                  <ul class="links-menu__link-list links">
+                     <li class="links__item"><a href="">Term and Conditions</a></li>
+                     <li class="links__item"><a href="">Privacy Policy</a></li>
+                     <li class="links__item"><a href="">Shipping Policy</a></li>
+                     <li class="links__item"><a href="">Sitemap</a></li>               
+                  </ul>
+               </div>
+               <div class="links-menu__column">
+                  <h3 class="links-menu__title">Location</h3>
+                  <ul class="links-menu__link-list links">
+                     <li class="links__item"><a href="">support@euphoria.in</a></li>
+                     <li class="links__item"><a href="">Eklingpura Chouraha, Ahmedabad Main Road</a></li>
+                     <li class="links__item"><a href="">(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</a></li>                     
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="footer__social-media-section social-media">
+            <div class="social-media__icons links-social-media">
+               <a href="#fb" class="links-social-media__item">
+                  <img src="img/footer/fb.svg" alt="FB">
+               </a>
+               <a href="#insta" class="links-social-media__item">
+                  <img src="img/footer/insta.svg" alt="Insta">
+               </a>
+               <a href="#x" class="links-social-media__item">
+                  <img src="img/footer/x.svg" alt="X">
+               </a>
+               <a href="#in" class="links-social-media__item">
+                  <img src="img/footer/in.svg" alt="In">
+               </a>
+            </div>
+            <div class="social-media__download-links links-download">
+               <h3 class="links-download__title">Download The App</h3>
+               <a href="#goopay" class="links-download__item">
+                  <img src="img/footer/g_play.svg" alt="Goopay">
+               </a>
+               <a href="#appstore" class="links-download__item">
+                  <img src="img/footer/app_store.svg" alt="Appstore">
+               </a>
+            </div>
+         </div>
+         <div class="footer__popular-categories-section popular-categories">
+            <h3 class="popular-categories__title">Popular Categories</h3>
+            <div class="popular-categories__hidden-menu-btn">
+               <a href="#popular"><img src="img/footer/arrow_down.svg" alt="arrow_btn"></a>
+            </div>
+         </div>
+         <div class="footer__copyright-section">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</div>
+      </div>
+   </footer>
+</body>
+
+</html>
