@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <title>Lesson 16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+
+         </div>
+      </header>
+      <main class="page">
+         <div class="page1__container">
+            <h2 class="title">My Info</h2>
+            <h3 class="sub-title">Add Address</h3>
+            <form class="registration-form" action="#user_registration" method="get">
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="f_name">First Name*</label>
+                     <input type="text" id="f_name" name="f_name" placeholder="First Name" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="l_name">Last Name*</label>
+                     <input type="text" id="l_name" name="l_name" placeholder="Last Name" required>
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="country_">Country / Region*</label>
+                     <input type="text" id="country_" name="country_" placeholder="Country / Region" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="c_name">Company Name</label>
+                     <input type="text" id="c_name" name="c_name" placeholder="Company (optional)">
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="s_address">Street Address*</label>
+                     <input type="text" id="s_address" name="s_address" placeholder="House number and street name"
+                        required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="apt_address">Apt, suite, unit</label>
+                     <input type="text" id="apt_address" name="apt_address"
+                        placeholder="apartment, suite, unit, etc. (optional)">
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="city_">City*</label>
+                     <input type="text" id="city_" name="city_" placeholder="Town / City" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="state_">State*</label>
+                     <select id="state_" name="state_" required>
+                        <optgroup label=""></optgroup>
+                        <option value="" disabled selected hidden>State</option>
+                        <optgroup label=""></optgroup>
+                        <option value="texas">Texas</option>
+                        <optgroup label=""></optgroup>
+                        <option value="california">California</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="phone_">Phone*</label>
+                     <input type="tel" id="phone_" name="phone_" placeholder="Phone" pattern="[0-9]" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="p_code">Postal Code*</label>
+                     <input type="text" id="p_code" name="p_code" placeholder="Postal Code" required>
+                  </div>
+               </div>
+               <div class="registration-form__row registration-form__row--last">
+                  <div class="registration-form__col registration-form__col--wide">
+                     <label for="d_instr">Delivery Instruction</label>
+                     <textarea id="d_instr" name="d_instr" placeholder="Delivery Instruction" rows="7"
+                        cols="100"></textarea>
+                  </div>
+               </div>
+               <div class="checkbox-block">
+                  <div class="checkbox-block__row">
+                     <input type="checkbox" id="shippingadr" name="shipping" value="shipping">
+                     <label for="shippingadr"> Set as default shipping address</label>
+                  </div>
+                  <div class="checkbox-block__row">
+                     <input type="checkbox" id="billingadr" name="billing" value="billing">
+                     <label for="billingadr"> Set as default billing address</label>
+                  </div>
+               </div>
+               <input type="submit" value="Save" class="button">
+               <input type="reset" value="Cancel" class="button button--rev-color">
+            </form>
+         </div>
+         <div class="page2__container">
+            <h2 class="title">Check Out</h2>
+            <h3 class="sub-title">Billing Details</h3>
+            <form class="registration-form" action="#delivery_registration" method="get">
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="fname">First Name*</label>
+                     <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="lname">Last Name*</label>
+                     <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="country">Country / Region*</label>
+                     <input type="text" id="country" name="country" placeholder="Country / Region" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="cname">Company Name</label>
+                     <input type="text" id="cname" name="cname" placeholder="Company (optional)">
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="saddress">Street Address*</label>
+                     <input type="text" id="saddress" name="saddress" placeholder="House number and street name"
+                        required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="aptaddress">Apt, suite, unit</label>
+                     <input type="text" id="aptaddress" name="aptaddress"
+                        placeholder="apartment, suite, unit, etc. (optional)">
+                  </div>
+               </div>
+               <div class="registration-form__row">
+                  <div class="registration-form__col">
+                     <label for="city">City*</label>
+                     <input type="text" id="city" name="city" placeholder="Town / City" required>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="state">State*</label>
+                     <select id="state" name="state" required>
+                        <optgroup label=""></optgroup>
+                        <option value="" disabled selected hidden>State</option>
+                        <optgroup label=""></optgroup>
+                        <option value="texas">Texas</option>
+                        <optgroup label=""></optgroup>
+                        <option value="california">California</option>
+                     </select>
+                  </div>
+                  <div class="registration-form__col">
+                     <label for="pcode">Postal Code*</label>
+                     <input type="text" id="pcode" name="pcode" placeholder="Postal Code" required>
+                  </div>
+               </div>
+               <div class="registration-form__row .registration-form__row--last">
+                  <div class="registration-form__col">
+                     <label for="phone">Phone*</label>
+                     <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]" required>
+                     <!-- pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" -->
+                  </div>
+               </div>
+               <input type="submit" value="Continue to delivery" class="button">
+               <div class="checkbox-block">
+                  <div class="checkbox-block__row">
+                     <input type="checkbox" id="fcheckout" name="fcheckout" value="fcheckout">
+                     <label for="fcheckout"> Save my information for a faster checkout</label>
+                  </div>
+               </div>
+            </form>
+         </div>
+         <div class="page3__container">
+            <form class="payment-form" action="#payment" method="get">
+               <div class="interact-block content-block">
+                  <h3 class="content-block__sub-title sub-title">Shipping Address</h3>
+                  <h6 class="content-block__label-ref">Select the address that matches your card or payment method.</h6>
+                  <div class="content-block__interact-block">
+                     <input type="radio" id="billing_addr" name="ship_addr" value="billinga" checked>
+                     <label for="billing_addr">Same as Billing address</label>
+                     <div class="line"></div>
+                     <input type="radio" id="shipping_addr" name="ship_addr" value="shippinga">
+                     <label for="shipping_addr">Use a different shipping address</label>
+                  </div>
+               </div>
+               <div class="inform-block content-block">
+                  <h3 class="content-block__sub-title sub-title content-block__sub-title--blank">Shipping Method</h3>
+                  <div class="content-block__inform-block">
+                     <p>Arrives by Monday, June 7</p>
+                     <div class="line"></div>
+                     <div class="charge-field">
+                        <p>Delivery Charges</p>
+                        <p>$5.00</p>
+                     </div>
+                     <p class="ref">Additional fess may apply</p>
+                  </div>
+               </div>
+               <div class="interact-block content-block">
+                  <h3 class="content-block__sub-title sub-title">Payment Method</h3>
+                  <h6 class="content-block__label-ref">All transactions are secure and encrypted.</h6>
+                  <div class="content-block__interact-block content-block__interact-block--high">
+                     <!--  -->
+                     <input type="radio" id="card" name="pmethod" value="card" checked>
+                     <div class="label-box">
+                        <label for="card">Credit Card</label>
+                        <label for="card">We accept all major credit cards.</label>
+                     </div>
+                     <div class="available-systems">
+                        <div class="pay-system-icon">
+                           <img src="img/googlepay.svg" alt="Icon_paysys">
+                        </div>
+                        <div class="pay-system-icon">
+                           <img src="img/visa.svg" alt="Icon_paysys">
+                        </div>
+                        <div class="pay-system-icon">
+                           <img src="img/paypal.svg" alt="Icon_paysys">
+                        </div>
+                        <div class="pay-system-icon">
+                           <img src="img/paypass.svg" alt="Icon_paysys">
+                        </div>
+                     </div>
+                     <div class="card-info-block">
+                        <input title="16-digit number in the format 0000 0000 0000 0000" type="text" name="numcard" id="numcard" placeholder="Card number" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" required>
+                        <input title="If the card name is set - only letters of the Latin alphabet" type="text" name="namecard" id="namecard" placeholder="Name of card" pattern="[A-Za-z]{*}" required>
+                        <input title="Expire date of card in digit format MM/YY (01&divide;12)/(23&divide;33)" type="text" name="expdate" id="expdate" placeholder="Expiration date (MM/YY)" pattern="[0-9]{2}+/[0-9]{2}" required>
+                        <input title="Enter 3-digit code from the card" type="password" name="secur_code" id="secur_code" placeholder="Security Code" pattern="[0-9]{3}" required>
+                     </div>
+                     <!--  -->
+                     <div class="line"></div>
+                     <!--  -->
+                     <input type="radio" id="cash" name="pmethod" value="cash">
+                     <div class="label-box">
+                        <label for="cash">Cash on delivery</label>
+                        <label for="cash">Pay with cash upon delivery.</label>
+                     </div>
+                     <!--  -->
+                     <div class="line"></div>
+                     <!--  -->
+                     <input type="radio" id="paypol" name="pmethod" value="paypol">                
+                        <label for="paypol">Paypal</label>                   
+                  </div>
+               </div>
+               <input type="submit" value="Pay Now" class="button">
+            </form>
+         </div>
+      </main>
+      <footer class="footer">
+         Freelancer lifestyle course 2023
+      </footer>
+   </div>
+</body>
+
+</html>
