@@ -90,7 +90,7 @@ body {
   line-height: 1.6;
 }
 
-.item__text:not(:last-child) {
+.item__content:not(:last-child) {
   margin-bottom: 12px;
 }
 
@@ -150,7 +150,7 @@ body {
   .title__sub-title {
     font-size: 16px;
   }
-  .item__text:not(:last-child) {
+  .item__content:not(:last-child) {
     margin-bottom: 8px;
   }
 }
@@ -159,7 +159,6 @@ body {
   .content__column {
     flex: 0 0 50%;
   }
-
   .page__task1 {
     padding: 15px 0 15px 0;
   }
@@ -182,7 +181,7 @@ body {
   .task1__content {
     row-gap: 20px;
   }
-  .item__text:not(:last-child) {
+  .item__content:not(:last-child) {
     margin-bottom: 6px;
   }
   .item__link {
@@ -218,7 +217,7 @@ body {
   .content__item {
     margin: 0 -15px;
   }
-  .item__text:not(:last-child) {
+  .item__content:not(:last-child) {
     margin-bottom: 4px;
   }
   .item__link {
@@ -325,10 +324,10 @@ body {
   justify-content: space-between;
 }
 
-.item-pop__link {
-  min-height: 100%;
-  min-width: 100%;
+.item-pop__link:not(:last-child) {
+  margin-bottom: 12px;
 }
+
 .item-pop__image {
   height: 100%;
   width: 100%;
@@ -351,7 +350,6 @@ body {
   font-family: "Cormorant Infant", serif;
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.4;
 }
 
 @media (max-width: 1170px) {
@@ -402,6 +400,9 @@ body {
   .task2__nav {
     gap: 20px;
   }
+  .item-pop__link:not(:last-child) {
+    margin-bottom: 6px;
+  }
 }
 
 @media (max-width: 490px) {
@@ -425,7 +426,7 @@ body {
   .item-pop__price,
   .item-best__title,
   .item-best__price {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 /* -----------   end task2   -------------- */
@@ -489,10 +490,10 @@ body {
   justify-content: space-between;
 }
 
-.item-best__link {
-  min-height: 100%;
-  min-width: 100%;
+.item-best__link:not(:last-child) {
+  margin-bottom: 12px;
 }
+
 .item-best__image {
   height: 100%;
   width: 100%;
@@ -592,10 +593,12 @@ body {
   .item-best__title,
   .item-best__price {
     text-align: center;
-    line-height: 1.2;
   }
   .task3__content:not(:last-child) {
     margin-bottom: 46px;
+  }
+  .item-best__link:not(:last-child) {
+    margin-bottom: 6px;
   }
 }
 
