@@ -1,0 +1,19 @@
+<svg width="24.000000" height="44.470596" viewBox="0 0 24 44.4706" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip134_249">
+			<rect id="ChevronLeft" width="24.000000" height="44.470589" transform="translate(24.000000 44.470581) rotate(-179.999985)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip134_248">
+			<rect id="carousel-control-prev" width="24.000004" height="44.470592" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip134_248)">
+		<rect id="ChevronLeft" width="24.000000" height="44.470589" transform="translate(24.000000 44.470581) rotate(-179.999985)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip134_249)">
+			<path id="Vector" d="M23.49 43.77C23.34 43.93 23.15 44.05 22.94 44.14C22.73 44.22 22.51 44.27 22.29 44.27C22.06 44.27 21.84 44.22 21.63 44.14C21.43 44.05 21.24 43.93 21.08 43.77L0.63 23.43C0.47 23.27 0.34 23.09 0.26 22.88C0.17 22.67 0.13 22.45 0.13 22.23C0.13 22.01 0.17 21.79 0.26 21.58C0.34 21.37 0.47 21.19 0.63 21.03L21.08 0.69C21.4 0.37 21.83 0.2 22.29 0.2C22.74 0.2 23.17 0.37 23.49 0.69C23.81 1.01 23.99 1.44 23.99 1.89C23.99 2.34 23.81 2.77 23.49 3.09L4.24 22.23L23.49 41.37C23.65 41.53 23.78 41.71 23.86 41.92C23.95 42.12 24 42.34 24 42.57C24 42.79 23.95 43.01 23.86 43.22C23.78 43.42 23.65 43.61 23.49 43.77Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
